@@ -1,0 +1,23 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+    --pcolor: #b9c6d2;
+    --scolor: #d0dde9;
+    --tcolor: #edf0f8;
+}
+
+body {
+    background-color: var(--pcolor);
+    background: linear-gradient(
+        180deg,
+        var(--pcolor),
+        var(--scolor),
+        var(--tcolor)
+    );
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
